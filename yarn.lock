@@ -27,6 +27,11 @@
   resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
   integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
 
+"@wikimedia/types-wikimedia@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@wikimedia/types-wikimedia/-/types-wikimedia-0.1.3.tgz#c89125f46aa33f1cbfe3bab7aa3d27207b98fbc3"
+  integrity sha512-GQlnCPJBelf4g5ptIHx54jwlWSGjiUGqPkb6/TeAbgGbpb9Q0OG9xthWmvp5uoUJRx0H5LEOL1i9TyUtPrY4zg==
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"

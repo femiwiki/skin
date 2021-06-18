@@ -1,49 +1,4 @@
 interface MediaWiki {
-  now(): number;
-
-  track(topic: string, data?: Object | number | string): void;
-
-  msg(key: string, ...parameters: any): string;
-
-  notify(
-    message:
-      | HTMLElement
-      | HTMLElement[]
-      | JQuery
-      | MediaWiki['Message']
-      | string,
-    options?: Object
-  ): JQuery.Promise<any>;
-
-  util: {
-    getUrl(pageName?: string, params?: Object): string;
-  };
-
-  loader: {
-    using(
-      dependencies: string | string[],
-      ready?: Function,
-      error?: Function
-    ): JQuery.Promise<any>;
-  };
-
-  config: {
-    get(selection?: string | string[], fallback?: any): any | Object | null;
-  };
-
-  user: {
-    options: {
-      get(selection?: string | string[], fallback?: any): any | Object | null;
-    };
-  };
-
-  Message: {};
-
-  Uri: {
-    new (uri?: Object | string, options?: Object | boolean): MediaWiki['Uri'];
-
-    extend(parameters: object): object;
-  };
 
   echo: {
     api: {
