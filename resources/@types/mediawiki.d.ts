@@ -1,5 +1,6 @@
-interface MediaWiki {
+import UpstreamMediaWiki from '@wikimedia/types-wikimedia';
 
+interface MediaWiki extends UpstreamMediaWiki {
   echo: {
     api: {
       EchoApi: {
