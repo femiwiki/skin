@@ -210,9 +210,9 @@
   },
   "OOUIThemePaths": {
     "Femiwiki": {
-      "scripts": "ooui/oojs-ui-femiwiki.js",
-      "styles": "ooui/oojs-ui-{module}-femiwiki.css",
-      "images": "ooui/{module}.json"
+      "scripts": "../vendor/femiwiki/ooui-femiwiki-theme/dist/resources/oojs-ui-femiwiki.js",
+      "styles": "../vendor/femiwiki/ooui-femiwiki-theme/dist/resources/oojs-ui-{module}-femiwiki.css",
+      "images": "../vendor/femiwiki/ooui-femiwiki-theme/dist/resources/{module}.json"
     }
   },
   "SkinOOUIThemes": {

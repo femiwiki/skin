@@ -2,4 +2,10 @@
 /node_modules/
 
 # composer dependencies
-/vendor/
+/vendor/*
+# Do not ignore resources required while Quibble test. Quibble seems to do not install skin's dependencies before test.
+!/vendor/femiwiki/
+/vendor/femiwiki/*
+!/vendor/femiwiki/ooui-femiwiki-theme/
+/vendor/femiwiki/ooui-femiwiki-theme/*
+!/vendor/femiwiki/ooui-femiwiki-theme/dist/
